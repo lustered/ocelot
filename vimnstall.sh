@@ -22,7 +22,3 @@ vim -c "PlugInstall" \
     -c "CocInstall coc-clangd coc-sh coc-prettier coc-json coc-cmake" \
     -c "q" \
     -c "q"
-
-# coc settings
-wget 'https://raw.githubusercontent.com/lustered/ocelot/master/coc-vim.vim' -P ~/.vim/
-wget 'https://raw.githubusercontent.com/lustered/ocelot/master/coc-settings.json' -P ~/.vim/
