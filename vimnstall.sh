@@ -11,12 +11,14 @@ wget 'https://raw.githubusercontent.com/lustered/ocelot/master/coc-settings.json
 wget 'https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz'
 mkdir node
 tar xf node-v14.17.0-linux-x64.tar.xz -C node/ --strip-components=1
+rm node-v14.17.0-linux-x64.tar.xz
 
 # Add to path
 echo "set path = ( \$HOME/node/bin \$path )" >> ~/.cshrc
 
 # Set vim settings and install plugins
 wget 'https://raw.githubusercontent.com/lustered/ocelot/master/.vimrc' -P ~/
+
 vim -c "PlugInstall" \
     -c "so ~/.vimrc" \
     -c "CocInstall coc-clangd coc-sh coc-prettier coc-json coc-cmake" \
