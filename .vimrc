@@ -15,7 +15,7 @@
   set noshowmode
   set laststatus=2
   set wildignorecase
-  set colorcolumn=90
+  set colorcolumn=80
   set encoding=utf-8
   scriptencoding=utf-8
   set smartcase
@@ -49,6 +49,7 @@
   Plug 'jiangmiao/auto-pairs'
   Plug 'itchyny/lightline.vim'
   Plug 'mhinz/vim-startify'
+  Plug 'dense-analysis/ale'
   call plug#end()
   " *********************************** End *******************************
 
@@ -75,4 +76,5 @@
   nnoremap ' `
   " Prevent wrong character when using backspace
   noremap! <C-?> <C-h>
+
   let g:coc_disable_startup_warning = 1

@@ -21,6 +21,7 @@ wget 'https://raw.githubusercontent.com/lustered/ocelot/master/.vimrc' -P ~/
 
 vim -c "PlugInstall" \
     -c "so ~/.vimrc" \
-    -c "CocInstall coc-clangd coc-sh coc-prettier coc-json coc-cmake" \
+    -c "CocInstall coc-clangd coc-sh coc-prettier coc-json coc-cmake coc-marketplace coc-snippets" \
+    -c "CocCommand clangd.install"
     -c "q" \
     -c "q"
