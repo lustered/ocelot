@@ -16,6 +16,9 @@ rm node-v14.17.0-linux-x64.tar.xz
 # Add to path
 echo "set path = ( \$HOME/node/bin \$path )" >> ~/.cshrc
 
+# Source cshrc to get node working
+source ~/.cshrc
+
 # Set vim settings and install plugins
 wget 'https://raw.githubusercontent.com/lustered/ocelot/master/.vimrc' -P ~/
 
