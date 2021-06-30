@@ -1,4 +1,4 @@
-## Script meant to install a basic and decent vim environment on ocelot servers
+## Script to install a basic and decent vim environment on FIU's ocelot servers
 
 Log on ocelot
 
