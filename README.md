@@ -8,3 +8,7 @@ Log on ocelot
 Log back in
 
     vim test.c -c "CocCommand clangd.install"
+
+To set up on a regular environment
+
+    wget -O - 'https://raw.githubusercontent.com/lustered/ocelot/master/reginstall.sh' | bash
